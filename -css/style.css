@@ -1,0 +1,59 @@
+/*FORMATAÇÕES PRINCIPAIS*/
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    /*background:-o-linear-gradient(to left, rgb(134, 1, 1),rgb(185,0,0), rgb(255, 0, 0) );*/
+    background: linear-gradient(87deg, rgb(138, 0, 0) 34%, rgb(214, 0, 0) 66%);
+    margin: 0 auto ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*FORMATAÇÃO DA BARRA DE NAVEGAÇÃO*/
+
+#news{
+    padding: 5px;
+    background-color: rgb(185,0,0) ;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+/*FORMATAÇÕES DOS CARDS*/
+
+.card-header{
+    font-weight: bold;
+    font-size: 16px;
+    color: rgb(255, 0, 0);
+    text-align: center;
+}
+
+.card-title{
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+.card-text{
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(182, 182, 182);
+}
+
+.card-title-img{
+    color: yellow;
+    border-color: black;
+    border-width: 10px;
+}
+
+.card-text-img{
+    color: black;
+    font-size: 18px;
+}
+
+.card-footer-author{
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px
+}
+
